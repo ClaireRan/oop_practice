@@ -39,6 +39,8 @@ class BankAccount:
 
 client1 = BankAccount('Ana', '1997-01-01', 'Female', 2000)
 client2 = BankAccount('Ann', '1997-01-07', 'Female', 3000)
+client3 = BankAccount('Bela', '1995-01-02', 'Female', 5000)
+client4 = BankAccount('Cal', '1995-01-09', 'Female', 7000)
 client1.deposit(1000)
 print(BankAccount.interest_rate)
 client1.set_interest_rate(0.07)
